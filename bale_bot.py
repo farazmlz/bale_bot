@@ -109,11 +109,7 @@ while True:
                 )
 
             elif message.content == "/location":
-                # showing the keyboard ...
-                await message.reply(
-                    keyboard_text,
-                    components = keyboard
-                )
+                print('hello world')
 
             else:
                 await message.reply('sorry, i dont know it\npress /start if you need a help.')
